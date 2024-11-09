@@ -1,0 +1,112 @@
+/*Barra de menu*/
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+/*imput*/
+
+.example-form {
+  min-width: 150px;       /* Mantiene un ancho mínimo de 150px */
+  max-width: 100%;        /* Ajusta el máximo al 100% del contenedor */
+  padding: 3rem;          /* Espacio interno (padding) de 3rem */
+  box-sizing: border-box; /* Incluye el padding en el ancho total */
+  width: 100%;            /* Asegura que ocupe todo el ancho disponible */
+}
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas iguales */
+  width: 100%;
+  gap: 60px;
+}
+
+  
+.example-full-width {
+  width: 100%;
+}
+  
+.description {
+  grid-column: span 3; /* Ocupa 3 columnas */
+}
+  
+.date {
+  grid-column: span 1; /* Ocupa 1 columna, junto a descripción */
+}
+
+/*Buttons*/
+.save-button {
+  background-color: #333333; /* Color gris */
+  color: #ffffff;
+  padding: 12px 30px; /* Ajusta el tamaño del botón */
+  border-radius: 20px; /* Bordes redondeados */
+  font-weight: bold; /* Hace el texto más fuerte */
+  margin-left: 50px;
+  cursor: pointer; /* Cambia el cursor a pointer cuando pasa sobre el botón */
+}
+
+.add-button {
+  background-color: #333333;     /* Color gris */
+  color: #ffffff;
+  padding: 12px 30px;            /* Ajusta el tamaño del botón */
+  border-radius: 20px;           /* Bordes redondeados */
+  font-weight: bold;             /* Hace el texto más fuerte */
+  margin-left: 105%;
+  cursor: pointer;               /* Cambia el cursor a pointer cuando pasa sobre el botón */
+}
+
+.generar-reporte{
+  background-color: #bb0f0f; /* Color gris */
+  color: #ffffff;
+  padding: 12px 30px; /* Ajusta el tamaño del botón */
+  border-radius: 20px; /* Bordes redondeados */
+  font-weight: bold; /* Hace el texto más fuerte */
+  margin-left: 45%;
+  cursor: pointer; /* Cambia el cursor a pointer cuando pasa sobre el botón */
+}
+
+  /*Buscador*/
+
+  .search-container {
+    display: flex;
+    justify-content: space-between; /* Alinea elementos en los extremos */
+    align-items: center;            /* Alinea verticalmente los elementos */
+    padding: 0 20px;                /* Espacio a los lados */
+    gap: 10px;                      /* Espacio entre el buscador y el botón */
+    width: 100%;                    /* Ocupar todo el ancho disponible */
+    box-sizing: border-box;
+  }
+  .search-field {
+    flex-grow: 1;                  /* Hace que el campo de búsqueda ocupe el espacio disponible */
+    max-width: 1700px;              /* Establece un máximo si necesitas limitar el ancho */
+  }
+  
+.mat-form-field {
+  flex: 1; /* Permite que el campo se ajuste al contenedor */
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  max-width: none; /* Elimina la limitación de ancho máximo */
+}
+
+  /*label historial*/
+
+.container-titulo {
+  text-align: center; /* Centrará el contenido dentro del contenedor */
+  font-size: 30px;
+  padding: 10px; /* Añade espacio dentro del label */
+  margin: 10px 0; /* Añade espacio alrededor del label */
+}
+
+.container-subtitulo{
+  text-align: left; /* Centrará el contenido dentro del contenedor */
+  font-size: 20px;
+  padding: 10px; /* Añade espacio dentro del label */
+  margin: 10px 0; /* Añade espacio alrededor del label */
+}
+
+/*Tabla*/
+
+table {
+  width: 100%;
+}
+
+
